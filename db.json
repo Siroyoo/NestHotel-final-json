@@ -1,9 +1,81 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "reservation": [
+    {
+      "id": 1,
+      "checkin": "2023-10-18",
+      "checkout": "2023-10-20",
+      "adult": 2,
+      "child": 0,
+      "room": "2인 스탠다드룸(standard)",
+      "name": "유성민",
+      "tel": "01012341234",
+      "nickname": "커피중독자"
+    },
+    {
+      "checkin": "2023-11-01",
+      "checkout": "2023-11-10",
+      "adult": "4",
+      "child": 0,
+      "room": "더블 룸(Double Bed)",
+      "name": "유성민",
+      "tel": "01012344321",
+      "nickname": "커피중독자",
+      "id": 2
+    },
+    {
+      "checkin": "2023-10-25",
+      "checkout": "2023-10-31",
+      "adult": "4",
+      "child": 0,
+      "room": "스위트 룸(Suite Room)",
+      "name": "테스트",
+      "tel": "11111111111",
+      "nickname": "테스트계정",
+      "id": 3
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@naver.com",
+      "password": "Admin1!@",
+      "nickname": "관리자",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "coffee@naver.com",
+      "password": "Qwer11!@",
+      "nickname": "커피중독자",
+      "role": "일반회원"
+    },
+    {
+      "email": "test@naver.com",
+      "password": "Test123!",
+      "nickname": "테스트계정",
+      "role": "guest",
+      "id": 3
+    },
+    {
+      "email": "test2@naver.com",
+      "password": "Test123@",
+      "nickname": "테스트계정2",
+      "role": "guest",
+      "id": 4
+    },
+    {
+      "email": "test3@naver.com",
+      "password": "Test12!",
+      "nickname": "테스트계정3",
+      "role": "guest",
+      "id": 5
+    },
+    {
+      "email": "test4@naver.com",
+      "password": "Qwer22!!",
+      "nickname": "테스트계정4",
+      "role": "guest",
+      "id": 6
+    }
+  ]
 }
